@@ -19,7 +19,6 @@ display_name = sys.argv[1]
 
 # Other details
 description = 'This is an example team description.'
-site_id = 'your_site_id'  # This can also be passed as an env variable if needed
 team_type = 'OPEN'
 
 # Construct the URL
