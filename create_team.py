@@ -8,6 +8,7 @@ sitename = os.getenv('SITENAME')
 org_id = os.getenv('ORG_ID')
 email = os.getenv('EMAIL')
 api_token = os.getenv('API_TOKEN')
+site_id = os.getenv('SITE_ID')
 
 # Get the display_name from command-line arguments
 if len(sys.argv) != 2:
