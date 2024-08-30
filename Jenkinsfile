@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     // Assuming your script is named create_team.py and is in the same directory
-                    sh 'python3 create_team1.py "$display_name"'
+                    sh 'python3 create_team.py "$display_name"'
                 }
             }
         }
